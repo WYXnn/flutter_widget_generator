@@ -1,0 +1,7 @@
+builders:
+  testBuilder:
+    import: "package:widget_generator/ListGenerate.dart"
+    builder_factories: ["listBuilder"]
+    build_extensions: {".dart": ["Widget.dart"]}
+    auto_apply: root_package
+    build_to: source
